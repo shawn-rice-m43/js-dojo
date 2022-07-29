@@ -51,6 +51,8 @@ const haystack5 = {
               a: {
                 a: false,
                 b: 55,
+                c: 1,
+                d: [],
               },
             },
           },
