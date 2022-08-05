@@ -64,6 +64,14 @@ const haystack5 = {
 
 describe(contains.name, () => {
   it("detects values in haystack1", () => {
-    expect(true).toBe(false);
+    expect(contains({}, "foo")).toBe(false);
+    expect(contains(haystack1, "foo")).toBe(true);
+    expect(contains(haystack1, "bar")).toBe(false);
+    expect(contains(haystack2, 0)).toBe(true);
+    expect(contains(haystack3, true)).toBe(true);
+    expect(contains(haystack3, false)).toBe(true);
+    expect(contains(haystack4, false)).toBe(true);
+    expect(contains(haystack4, true)).toBe(true);
+    expect(contains(haystack5, 55)).toBe(true);
   });
 });

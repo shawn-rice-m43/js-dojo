@@ -4,9 +4,9 @@ Round-robin code challenges with a focus on solving problems with Test-driven De
 
 ## Process
 
-1 Driver 1 Passenger
+1 Driver 1 Pilot
 
-The Driver writes the code. The Passenger suggests what to write.
+The Driver writes the code. The Pilot suggests what to write.
 
 Red => Green => Refactor
 

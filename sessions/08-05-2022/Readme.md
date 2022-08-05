@@ -25,7 +25,7 @@ const exampleObject = {
     b: 'foo',
 }
 
-contains(exampleObject: 'foo') => true;
+contains(exampleObject, 'foo') => true;
 contains(exampleObject, 'bar') => true;
 contains(exampleObject, true) => false;
 ```
