@@ -21,8 +21,8 @@ Red => Green => Refactor
 ## Goals
 
 - give each participant an opportunity to hone their problem solving skills in a supportive environment
-- increace each participants comfort level writing code in front of others
-- give each participant hands-on experience testing JavaScript
+- increase each participant's comfort level writing code in front of others
+- give each participant hands-on experience testing JavaScript/TypeScript
 
 Please note: 'solving the problem' is conspicuously absent from this list. We do not fail as a group if we fail to solve the problem. An individual does not fail if they don't write a passing test.
 
